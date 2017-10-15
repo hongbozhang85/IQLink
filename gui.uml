@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>comp1110.ass2.gui</OriginalElement>
+  <nodes>
+    <node x="60.0" y="295.0">comp1110.ass2.gui.assets</node>
+    <node x="90.53409090909089" y="-24.0">comp1110.ass2.gui.PegArray</node>
+    <node x="99.75" y="156.0">comp1110.ass2.gui.Draggable</node>
+    <node x="37.43181818181819" y="234.0">comp1110.ass2.gui.Board</node>
+    <node x="153.6590909090909" y="234.0">comp1110.ass2.gui.Viewer</node>
+    <node x="41.0" y="84.0">comp1110.ass2.gui.NonDraggable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="comp1110.ass2.gui.Draggable" target="comp1110.ass2.gui.NonDraggable">
+      <point x="-24.25" y="-14.0" />
+      <point x="124.0" y="131.0" />
+      <point x="131.49999999999997" y="131.0" />
+      <point x="30.49999999999997" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Draggable" target="comp1110.ass2.gui.PegArray">
+      <point x="24.250000000000004" y="-14.0" />
+      <point x="172.5" y="58.0" />
+      <point x="146.53409090909088" y="58.0" />
+      <point x="11.0" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Board" target="comp1110.ass2.gui.PegArray">
+      <point x="-23.0" y="-14.0" />
+      <point x="48.93181818181819" y="209.0" />
+      <point x="29.5" y="209.0" />
+      <point x="29.5" y="48.0" />
+      <point x="102.53409090909089" y="48.0" />
+      <point x="-33.0" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Board" target="comp1110.ass2.gui.NonDraggable">
+      <point x="0.0" y="-14.0" />
+      <point x="71.93181818181819" y="209.0" />
+      <point x="70.5" y="209.0" />
+      <point x="-30.5" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Viewer" target="comp1110.ass2.gui.PegArray">
+      <point x="18.25" y="-14.0" />
+      <point x="207.5340909090909" y="48.0" />
+      <point x="168.53409090909088" y="48.0" />
+      <point x="33.0" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.NonDraggable" target="comp1110.ass2.gui.PegArray">
+      <point x="-2.8421709430404007E-14" y="-14.0" />
+      <point x="100.99999999999997" y="58.0" />
+      <point x="124.53409090909089" y="58.0" />
+      <point x="-11.0" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Viewer" target="comp1110.ass2.gui.Draggable">
+      <point x="-18.25" y="-14.0" />
+      <point x="24.25" y="14.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui.Board" target="comp1110.ass2.gui.Draggable">
+      <point x="23.0" y="-14.0" />
+      <point x="94.93181818181819" y="209.0" />
+      <point x="124.0" y="209.0" />
+      <point x="-24.25" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="166.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+

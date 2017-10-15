@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>comp1110.ass2</OriginalElement>
+  <nodes>
+    <node x="-51.0" y="28.0">comp1110.ass2.LinkGame</node>
+    <node x="337.0" y="846.0">comp1110.ass2.Unit</node>
+    <node x="258.0" y="529.0">comp1110.ass2.Piece</node>
+    <node x="0.0" y="529.0">comp1110.ass2.PiecePlacement</node>
+    <node x="288.0" y="731.0">comp1110.ass2.UandO</node>
+    <node x="574.5" y="573.0">comp1110.ass2.SolutionDictionary</node>
+    <node x="61.0" y="748.0">comp1110.ass2.Orientation</node>
+    <node x="-153.0" y="561.0">comp1110.ass2.gui</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="comp1110.ass2.UandO" target="comp1110.ass2.Orientation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.PiecePlacement" target="comp1110.ass2.Orientation">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.PiecePlacement" target="comp1110.ass2.Piece">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.Piece" target="comp1110.ass2.UandO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.LinkGame" target="comp1110.ass2.PiecePlacement">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.gui" target="comp1110.ass2.gui">
+      <point x="0.0" y="0.0" />
+      <point x="-98.5" y="537.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="comp1110.ass2.SolutionDictionary" target="comp1110.ass2.LinkGame">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="203.0" />
+    </edge>
+    <edge source="comp1110.ass2.UandO" target="comp1110.ass2.Unit">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="356.0" y="495.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>packageLocal</VISIBILITY>
+</Diagram>
+
